@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inside{
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 30px;
+    display: flexbox;
+}
+
+.input{
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.button{
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: white;
+    padding:10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 11px;;
+}
+
+.answer{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
