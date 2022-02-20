@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.inside {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 30px;
+    display: flexbox;
+}
+
+.button {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.output {
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.newbutton {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+}

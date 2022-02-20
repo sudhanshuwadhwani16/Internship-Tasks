@@ -1,0 +1,17 @@
+.square {
+    height: 250px;
+    width: 250px;
+    background-color: cyan;
+}
+
+@media screen and (max-width : 1200px) {
+    .square {
+        background-color: brown;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .square {
+        background-color: grey;
+    }
+}

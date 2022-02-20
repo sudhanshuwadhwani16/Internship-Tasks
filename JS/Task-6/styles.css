@@ -1,0 +1,236 @@
+.container {
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.box-1 {
+    position: relative;
+    /* border: 1px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+
+}
+
+.circle1 {
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    z-index: 1;
+    /* top:200px; */
+}
+
+.triangle1 {
+    z-index: 2;
+    position: absolute;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 145px solid yellow;
+    left: 30px;
+}
+
+.square1 {
+    z-index: 3;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: purple;
+    left: 80px;
+    top: 85px;
+}
+
+.box-2 {
+    position: relative;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.circle2 {
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    z-index: 1;
+}
+
+.square2 {
+    z-index: 2;
+    position: absolute;
+    height: 140px;
+    width: 144px;
+    background-color: purple;
+    left: 48px;
+    top: 50px;
+}
+
+.triangle2 {
+    z-index: 3;
+    position: absolute;
+    border-left: 72px solid transparent;
+    border-right: 72px solid transparent;
+    border-bottom: 140px solid yellow;
+    left: 48px;
+    top: 50px;
+}
+
+.box-3 {
+    position: relative;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.square3 {
+    z-index: 1;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+
+}
+
+.circle3 {
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    z-index: 2;
+}
+
+.triangle3 {
+    z-index: 3;
+    position: absolute;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid yellow;
+    left: 40px;
+}
+
+.box-4 {
+    position: relative;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.square4 {
+    z-index: 1;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+.triangle4 {
+    z-index: 2;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+
+}
+
+.circle4 {
+    position: absolute;
+    border-radius: 50%;
+    height: 123px;
+    width: 124px;
+    background-color: cyan;
+    z-index: 3;
+    top: 97px;
+    left: 58px;
+}
+
+.box-5 {
+    position: relative;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.triangle5 {
+    z-index: 1;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+}
+
+.square5 {
+    z-index: 2;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    top: 120px;
+    left: 71px;
+}
+
+.circle5 {
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    z-index: 3;
+    top: 120px;
+    left: 71px;
+}
+
+.box-6 {
+    position: relative;
+    /* border: 2px solid; */
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.triangle6 {
+    z-index: 1;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+}
+
+.circle6 {
+    position: absolute;
+    border-radius: 50%;
+    height: 123px;
+    width: 123px;
+    background-color: cyan;
+    z-index: 2;
+    top: 98px;
+    left: 59px;
+}
+
+.square6 {
+    z-index: 3;
+    position: absolute;
+    height: 87px;
+    width: 87px;
+    background-color: purple;
+    top: 116px;
+    left: 77px;
+}
+
+@media (max-width : 800px) {
+    body{
+        background-color: lightgreen;
+    }
+}
